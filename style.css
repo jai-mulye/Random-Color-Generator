@@ -1,0 +1,26 @@
+* {
+	padding: 0px;
+	margin:  0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.controls {
+	margin-top: 40vh;
+}
+
+.controls h1 {
+	font-size: 2rem;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.controls button {
+	font-family: 'Nunito', sans-serif;
+	display: block;
+	padding: 5px 10px;
+	margin: 0 auto;
+}
