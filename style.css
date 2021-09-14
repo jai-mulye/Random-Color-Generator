@@ -7,15 +7,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.controls {
-	margin-top: 40vh;
+	min-height: 100vh;
 }
 
 .controls h1 {
 	font-size: 2rem;
 	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 1rem;
 }
 
 .controls button {
@@ -23,4 +21,9 @@ body {
 	display: block;
 	padding: 5px 10px;
 	margin: 0 auto;
+	box-shadow: 2px 3px 5px #333333;
+}
+
+.controls button:hover {
+	box-shadow: 1px 2px 2.5px #333333;
 }
