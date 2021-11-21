@@ -8,11 +8,20 @@ body {
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
+	min-width: 360px;
+}
+
+.controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .controls h1 {
 	font-size: 2rem;
 	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
 	margin-bottom: 1rem;
 }
 
